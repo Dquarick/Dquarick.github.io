@@ -60,6 +60,19 @@ li a{
 	color: #ff0000;
 }
 
+#social-media-bar a{
+	color: #ff0000;
+}
+
+#social-media-bar a:hover{
+	text-decoration: none;
+	cursor: url(../imgs/triangle-cursor-white.png), auto;
+}
+
+#social-media-bar a:focus{
+	text-decoration: none;
+}
+
 #social-media-bar:hover{
 	cursor: url(../imgs/triangle-cursor-white.png), auto;
 }
