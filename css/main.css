@@ -153,10 +153,68 @@ ul{
 	cursor: url(../imgs/triangle-cursor-white.png), auto;
 }
 
-img{
-	max-width: 175px;
-	max-height: 175px;
+.portfolio-frame a:focus{
+	text-decoration: none;
+}
+
+.portfolio-image{
+	width: 175px;
+	height: 175px;
 	margin: 10px auto;
+}
+
+#cpp { 
+	background:url(../imgs/c++-logo-white.png);
+	transition: background .3s;
+}
+
+#cpp:hover { 
+	background:url(../imgs/c++-logo-red.png);
+}
+
+#py { 
+	background:url(../imgs/python-logo-white.png);
+	transition: background .3s;
+}
+
+#py:hover { 
+	background:url(../imgs/python-logo-red.png);
+}
+
+#cs { 
+	background:url(../imgs/csharp-logo-white.png);
+	transition: background .3s;
+}
+
+#cs:hover { 
+	background:url(../imgs/csharp-logo-red.png);
+}
+
+#ps { 
+	background:url(../imgs/photoshop-logo-white.png);
+	transition: background .3s;
+}
+
+#ps:hover { 
+	background:url(../imgs/photoshop-logo-red.png);
+}
+
+#html { 
+	background:url(../imgs/html5-logo-white.png);
+	transition: background .3s;
+}
+
+#html:hover { 
+	background:url(../imgs/html5-logo-red.png);
+}
+
+#js { 
+	background:url(../imgs/javascript-logo-white.png);
+	transition: background .3s;
+}
+
+#js:hover { 
+	background:url(../imgs/javascript-logo-red.png);
 }
 
 
