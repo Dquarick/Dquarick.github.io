@@ -135,7 +135,6 @@ ul{
 	transition: border .3s;
 }
 
-
 .portfolio-frame:hover{
 	border-color: #ff0000;
 	cursor: url(../imgs/triangle-cursor-white.png),auto;
