@@ -5,8 +5,8 @@
 	<meta name="robots" content="noindex"/>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Lorain County Coroner | Serving Justice &amp; Peace in Ohio's County of Lorain</title>
-	<meta name="description" content="General and contact information for the Lorain County Coroner's Office."/>
+	<title>Lorain County Coroner | Contact the Lorain County Coroner's Office</title>
+	<meta name="description" content="Contact information for the Lorain County Coroner's Office and a form to send a message."/>
 	<!-- FAVICONS -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
@@ -33,31 +33,31 @@
 <body>
 	<a href="#" id="to-top"><i class="fa fa-chevron-up fa-2x"></i><span>T<br/>o<br/>p</span></a>
 	<header>
-		<nav id="top-nav" class="navbar navbar-fixed-top">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav-inner">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>                        
-			  </button>
+		<nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<span id="mobile-logo"><h1>Lorain County Coroner</h1></span>
+					<button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav-inner">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>   
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="top-nav-inner">
+					<ul class="nav navbar-nav">
+						<li><a href="lcco.html">Home</a></li>
+						<li><a href="information.html">Information</a></li>
+					</ul>
+					<div id="scrolled-logo"><h1>Lorain County Coroner</h1></div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="cur-page" href="contact.html">Contact Us</a></li>
+						<li><a href="faqs.html">FAQ</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="collapse navbar-collapse" id="top-nav-inner">
-				<ul class="nav navbar-nav">
-				    <li><a href="lcco.html">Home</a></li>
-				    <li><a href="information.html">Information</a></li>
-				</ul>
-				
-			   	<ul class="nav navbar-nav navbar-right">
-					<li><a class="cur-page" href="contact.html">Contact Us</a></li>
-				  	<li><a href="faqs.html">FAQ</a></li>
-				</ul>
-			</div>
-		  </div>
 		</nav>
-		<div id="nav-arc"><div id="logo"><img src="imgs/lcco-logo.png"></div></div>
+		<div id="nav-arc"><div id="logo"><img src="imgs/lcco-logo.png" alt="The seal representing the Lorain County Coroner."></div></div>
 	</header>
-	
 	<div id="contact-content" class="main-content">
 		<div class="container-fluid">
 			<h1>Contact Us</h1>
@@ -90,11 +90,11 @@
 				<div class="col-sm-6" id="contact-information">
 					<h2>Contact Information</h2>
 					<a href="tel:1-440-774-7300"><i class="fa fa-phone"></i>(440) 774-7300</a>
-					<a><i class="fa fa-fax"></i>(440) 774-7002</a>
+					<span class="contact-info"><i class="fa fa-fax"></i>(440) 774-7002</span>
 					<a href="https://www.google.com/maps/place/5+S+Main+St,+Oberlin,+OH+44074/@41.2914998,-82.2192271,17z/data=!3m1!4b1!4m5!3m4!1s0x883a0a78e5b1d591:0xe20be9550547cb77!8m2!3d41.2914998!4d-82.2170384">
 						<i class="fa fa-map-marker"></i><address>5 S. Main St. Suite 304, Oberlin, OH</address>
 					</a>
-					<a><i class="fa fa-clock-o"></i>8:30 AM - 4:30 PM Monday - Friday</a>
+					<span class="contact-info"><i class="fa fa-clock-o"></i>8:30 AM - 4:30 PM Monday - Friday</span>
 				</div>
 			</div>
 		</div>
@@ -105,11 +105,11 @@
 			<div id="footer-contact" class="col-sm-4">
 				<h5>Contact Us</h5>
 				<a href="tel:1-440-774-7300"><i class="fa fa-phone"></i>(440) 774-7300</a>
-				<a><i class="fa fa-fax"></i>(440) 774-7002</a>
+				<span class="contact-info"><i class="fa fa-fax"></i>(440) 774-7002</span>
 					<a href="https://www.google.com/maps/place/5+S+Main+St,+Oberlin,+OH+44074/@41.2914998,-82.2192271,17z/data=!3m1!4b1!4m5!3m4!1s0x883a0a78e5b1d591:0xe20be9550547cb77!8m2!3d41.2914998!4d-82.2170384">
 						<i class="fa fa-map-marker"></i><address>5 S. Main St. Suite 304, Oberlin, OH</address>
 					</a>
-				<a><i class="fa fa-clock-o"></i>8:30 AM - 4:30 PM Monday - Friday</a>
+				<span class="contact-info"><i class="fa fa-clock-o"></i>8:30 AM - 4:30 PM Monday - Friday</span>
 			</div>
 			<!-- SITEMAP -->
 			<div id="footer-sitemap" class="col-sm-4 text-center">
@@ -132,9 +132,10 @@
 		<!-- COPYRIGHT -->
 		<div id="copyright">
 			<h5>&copy; <span id="year"></span> Lorain County Coroner - All Rights Reserved.</h5>
-			<img src="imgs/lorain-county-outline.png" class="img-responsive">
+			<img src="imgs/lorain-county-outline.png" class="img-responsive" alt="A small outline of Lorain County - located in Northern Ohio.">
 		</div><!-- END COPYRIGHT -->
 	</footer> <!-- END FOOTER -->
+	<script src="js/navCollapse.js"></script>
 	<script src="js/getYear.js"></script>
 	<script src="js/toTop.js"></script>
 </body>

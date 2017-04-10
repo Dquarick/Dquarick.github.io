@@ -34,29 +34,30 @@
 <body>
 	<a href="#" id="to-top"><i class="fa fa-chevron-up fa-2x"></i><span>T<br/>o<br/>p</span></a>
 	<header>
-		<nav id="top-nav" class="navbar navbar-fixed-top">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav-inner">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>                        
-			  </button>
+		<nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<span id="mobile-logo"><h1>Lorain County Coroner</h1></span>
+					<button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav-inner">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="top-nav-inner">
+					<ul class="nav navbar-nav">
+						<li><a href="lcco.html">Home</a></li>
+						<li><a href="information.html">Information</a></li>
+					</ul>
+					<div id="scrolled-logo"><h1>Lorain County Coroner</h1></div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a class="cur-page" href="faqs.html">FAQ</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="collapse navbar-collapse" id="top-nav-inner">
-				<ul class="nav navbar-nav">
-				    <li><a href="lcco.html">Home</a></li>
-				    <li><a href="information.html">Information</a></li>
-				</ul>
-				
-			   	<ul class="nav navbar-nav navbar-right">
-					<li><a href="contact.html">Contact Us</a></li>
-				  	<li><a class="cur-page" href="faqs.html">FAQ</a></li>
-				</ul>
-			</div>
-		  </div>
 		</nav>
-		<div id="nav-arc"><div id="logo"><img src="imgs/lcco-logo.png"></div></div>
+		<div id="nav-arc"><div id="logo"><img src="imgs/lcco-logo.png" alt="The seal representing the Lorain County Coroner."></div></div>
 	</header>
 	<div id="faq-content" class="main-content">
 		<div class="container-fluid">
@@ -67,11 +68,11 @@
 					<h2>Why is the Coroner's Office Involved?</h2>
 					<p>Ohio Law requires the County Coroner to investigate the circumstances and determine the cause and manner of death of all deaths that are:</p>
 					<ul>
-						<li>sudden when a person is in apparent good health</li>
-						<li>not under the care of a physician</li>
-						<li>suspicious, unusual, or unexplained</li>
-						<li>the result of violence</li>
-						<li>unlawful or due to criminal neglect</li>
+						<li>Sudden when a person is in apparent good health</li>
+						<li>Not under the care of a physician</li>
+						<li>Suspicious, unusual, or unexplained</li>
+						<li>The result of violence</li>
+						<li>Unlawful or due to criminal neglect</li>
 					</ul>	
 
 				 	<h2>Will an Autopsy be Performed?</h2>
@@ -101,11 +102,11 @@
 			<div id="footer-contact" class="col-sm-4">
 				<h5>Contact Us</h5>
 				<a href="tel:1-440-774-7300"><i class="fa fa-phone"></i>(440) 774-7300</a>
-				<a><i class="fa fa-fax"></i>(440) 774-7002</a>
+				<span class="contact-info"><i class="fa fa-fax"></i>(440) 774-7002</span>
 					<a href="https://www.google.com/maps/place/5+S+Main+St,+Oberlin,+OH+44074/@41.2914998,-82.2192271,17z/data=!3m1!4b1!4m5!3m4!1s0x883a0a78e5b1d591:0xe20be9550547cb77!8m2!3d41.2914998!4d-82.2170384">
 						<i class="fa fa-map-marker"></i><address>5 S. Main St. Suite 304, Oberlin, OH</address>
 					</a>
-				<a><i class="fa fa-clock-o"></i>8:30 AM - 4:30 PM Monday - Friday</a>
+				<span class="contact-info"><i class="fa fa-clock-o"></i>8:30 AM - 4:30 PM Monday - Friday</span>
 			</div>
 			<!-- SITEMAP -->
 			<div id="footer-sitemap" class="col-sm-4 text-center">
@@ -128,9 +129,10 @@
 		<!-- COPYRIGHT -->
 		<div id="copyright">
 			<h5>&copy; <span id="year"></span> Lorain County Coroner - All Rights Reserved.</h5>
-			<img src="imgs/lorain-county-outline.png" class="img-responsive">
+			<img src="imgs/lorain-county-outline.png" class="img-responsive" alt="A small outline of Lorain County - located in Northern Ohio.">
 		</div><!-- END COPYRIGHT -->
 	</footer> <!-- END FOOTER -->
+	<script src="js/navCollapse.js"></script>
 	<script src="js/getYear.js"></script>
 	<script src="js/toTop.js"></script>
 </body>
